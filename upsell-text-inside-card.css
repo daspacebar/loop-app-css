@@ -1,0 +1,13 @@
+.loop-card-upsell::after {
+    content: "BFCM Special";
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    background-color: #7a8be9;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  

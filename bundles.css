@@ -1,0 +1,23 @@
+.d-flex.flex-column.align-items-start.my-2{
+    color:black!important;
+}
+ .loop-text-p3.m-0.loop-bundle-product-card-description{
+    color:#4353ff!important;
+}
+ .loop-img-fit {
+    object-fit: contain!important;
+}
+ .loop-carousel-image {
+    object-fit: contain!important;
+     max-height: 260px;
+}
+ .loop-select-variant{
+    margin-bottom:20px!important;
+}
+ .loop-bundle-image-container{
+    display:none!important;
+}
+ .loop-progress-bar-label{
+     display: none!important;
+}
+ 

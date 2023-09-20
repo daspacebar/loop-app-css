@@ -1,0 +1,297 @@
+@font-face {
+    font-family: poet;
+    src: url("https://cdn.shopify.com/s/files/1/0570/1196/2009/files/PoetsenOne-Regular.ttf?v=1695119570");
+  }
+  
+  .loop-background{
+    background-color: #F4EFDC;
+    padding-top: 0px;
+  }
+  
+  .Marquee {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    color: #1E0949;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 2px solid #1E0949;
+    border-top: 5px solid #1E0949;
+    height: 64px;
+  }
+  
+  .Marquee-content {
+    display: flex;
+    animation: marquee 10s linear infinite running;
+  }
+  
+  .Marquee-content:hover {
+    animation-play-state: paused;
+  }
+  
+  .Marquee-tag {
+    width: 200px;
+    margin: 0 .5em;
+    padding: .5em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  
+  .Marquee-tag:hover {
+    background: rgba(255, 255, 255, .5);
+    transform: scale(1.1);
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translate(-50%);
+    }
+  }
+  
+  .loop-bundle-image-container.loop-img-fit{
+    display: none;
+  }
+  
+  .loop-bundle-image-container{
+    background-image: url("https://cdn.shopify.com/s/files/1/0570/1196/2009/files/Group_20.png?v=1695111997")
+  }
+  .loop-bundle-title-wrapper.pt-3{
+    display: none;
+  }
+  
+  .loop-bundle-description{
+    width: 100%;
+  }
+  
+  .loop-bundle-image-container{
+    max-height: none !important;
+  }
+  
+  .loop-h2.loop-frequency-size-selector-label{
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: poet;
+  }
+  
+  .btn.loop-btn.loop-btn-outline.loop-btn-size-md.loop-btn.mx-2.mt-1{
+    border-radius: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: #F54918;
+    font-family: poet;
+  }
+  
+  .btn.loop-btn.loop-btn-selected.loop-btn-size-md.loop-btn.mx-2.mt-1{
+    border-radius: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #1E0949;
+    color: white;
+    font-family: poet;
+  }
+  
+  .loop-card {
+    background-color: white;
+    padding-bottom: 20px;
+    height: 410px;
+  }    
+  
+  .loop-products-align{
+    gap:30px;
+  }
+  
+  .product-1-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .desc-contains{
+    margin-left: 10px;
+    color: red;
+  }
+  .loop-add-product-btn{
+    width: 50px;
+  }
+  .btn.loop-btn.loop-btn-add-product.loop-btn-size-md.loop-btn.px-3{
+    background-color: #F54918;
+    box-shadow: 1px 2px 0px gray;
+  }
+  .loop-card-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  
+  .btn.loop-btn.loop-btn-outline.loop-btn-size-md.loop-btn.mx-2.mt-1.w-100.loop-drawer-go-back-btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+    color: white;
+  }
+  
+  .loop-select-variant{
+    display: none;
+  }
+  
+  .loop-footer-height {
+    height: auto;
+  }
+  
+  .card-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 0;
+      background-color: transparent;
+      margin-top: 70px;
+  }
+  
+  .card {
+      width: 240px;
+      background-color: #FBFF77;
+      padding: 20px;
+      border-radius: 5px;
+      border-color: black;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      height: 225px;
+      margin-right: 20px;
+      border-radius: 40%;
+  }
+  
+  h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+  
+  p {
+      font-size: 16px;
+      color: #555;
+  }
+  
+  
+  .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      margin-top: 40px;
+  }
+  
+  .faq {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+  }
+  
+  .loop-btn-add-product {
+      border-radius: 50%;
+      height: 50px;
+      font-size: 18px;
+  }
+  
+  
+  .loop-body-footer-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loop-footer-height{
+    width: 160px;
+    margin-top: 40px;
+  }
+  
+  
+  .loop-btn-input-decrease, .loop-btn-input-increase {
+    border-radius: 0px !important;
+    background-color: #1E0949;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loop-card.loop-selected-product-card{
+    height: auto;
+  }
+  
+  .btn.loop-btn.loop-btn-add-product.loop-btn-size-md.loop-btn.px-3{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loop-products-available{
+    margin-bottom: 50px;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .card-container {
+        display: flex;  
+        justify-content: center; 
+        flex-direction: column;
+      }
+  
+      .card {
+          width: 100%; /* Make cards take up the full width of the container */
+          margin-right: 0; /* Remove right margin on smaller screens */
+        margin-bottom: 20px;
+        border-radius: 0px;
+      } 
+  
+    .loop-h2.loop-frequency-size-selector-label{
+        text-align: center;
+        font-size: 28px;
+    }
+    .loop-card {
+      height: 350px;
+      width: 320px;
+    }
+    .loop-footer-height{
+      margin-top: 0px;
+    }
+    .faq-grid{
+      display: flex;
+      flex-direction: column;
+    }
+    .loop-img-fit{
+      object-fit: contain;
+    }
+  }
+  
+  
+  .loop-form-input{
+    background-color: #1E0949;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  
+  
