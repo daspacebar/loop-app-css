@@ -277,7 +277,7 @@
       margin-top: 0px;
     }
     .faq-grid{
-      display: flex;
+      display: flex; 
       flex-direction: column;
     }
     .loop-img-fit{

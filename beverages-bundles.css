@@ -1,0 +1,163 @@
+@font-face {
+    font-family: lilita;
+    src: url("https://cdn.shopify.com/s/files/1/0570/1196/2009/files/LilitaOne-Regular.ttf?v=1695624063");
+  }
+  @font-face {
+    font-family: poppins;
+    src: url("https://cdn.shopify.com/s/files/1/0570/1196/2009/files/Poppins-Bold.ttf?v=1695627815");
+  }
+  
+  .loop-background{
+      background-color: #88CDF2;
+      padding-top: 0px;
+  }
+  
+  .loop-bundle-image-container.loop-img-fit{
+      display: none;
+    }
+    
+    .loop-bundle-image-container{
+      background-image: url("https://cdn.shopify.com/s/files/1/0570/1196/2009/files/Group_7.png?v=1695623079")
+    }
+    .loop-bundle-title-wrapper.pt-3{
+      display: none;
+    }
+    .loop-bundle-image-container{
+      max-height: none !important;
+      height: 330px;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .loop-bundle-description{
+      width: 100%;
+    }
+    
+    .loop-bundle-image-container{
+      max-height: none !important;
+    }
+  
+  .loop-h2.loop-frequency-size-selector-label, .loop-h2.loop-bundle-select-product-title{
+    font-family: lilita;
+    font-size: 32px;
+  }
+  
+  .btn.loop-btn.loop-btn-outline.loop-btn-size-md.loop-btn.mx-2.mt-1{
+    box-shadow: -4px 4px 0px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    color: black;
+  }
+  
+  .btn.loop-btn.loop-btn-add-product.loop-btn-size-md.loop-btn.px-3{
+    background-color: white;
+    box-shadow: -4px 4px 0px 0px rgba(0, 0, 0, 0.75);
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: poppins;
+  }
+  .rounded-0.text-center.loop-form-input, 
+    .btn.loop-btn.loop-btn-input-decrease.loop-btn-size-sm.pointer, 
+    .btn.loop-btn.loop-btn-input-increase.loop-btn-size-sm.pointer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 600;
+  }
+  .loop-btn-add-to-cart:disabled,.loop-btn-add-to-cart[disabled]{
+    background-color: white;
+  }
+  
+  .btn.loop-btn.loop-btn-add-to-cart.loop-btn-size-md.loop-btn{
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .active-label{
+    color: black !important;
+  }
+  .label-container.label.colored {
+      font-weight: 600;
+  }
+  
+  /*Web story Cards */
+  /* Styles for the slider container */
+  .loop-bundle-footer-description{
+    width: 100%;
+  }
+  .text-container{
+    width: 450px;
+    line-height: 3.5rem;
+  }
+  .slider-text{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+  }
+  .slider-container {
+      width: 100%;
+      overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+  }
+  
+  /* Styles for the slider */
+  .slider {
+      display: flex;
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+  }
+  
+  /* Styles for each card */
+  .card {
+      width: 250px;
+      height: 300px;
+      background-color: #f0f0f0;
+      margin-right: 20px; /* Adjust as needed */
+      border-radius: 10px;
+      text-align: center;
+      flex-shrink: 0;
+  }
+  
+  .card-content {
+      padding: 20px;
+  }
+  
+  .card p {
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  
+  /* FAQ */
+  .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      margin-top: 40px;
+  }
+  
+  .faq {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+  }
+  @media screen and (max-width: 768px) {
+      .faq-grid{
+      display: flex;
+      flex-direction: column;
+    }
+  }
