@@ -102,8 +102,8 @@
     text-align: left;
   }
   .slider-container {
-      width: 100%;
-      overflow: hidden;
+    width: 100%;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     margin-top: 130px;
@@ -156,8 +156,13 @@
       text-align: left;
   }
   @media screen and (max-width: 768px) {
-      .faq-grid{
+    .faq-grid{
       display: flex;
       flex-direction: column;
+    }
+    .slider-container{
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
     }
   }
