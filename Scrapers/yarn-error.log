@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add axios
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/niketkumar/Desktop/Code/node_modules/asynckit'
+
+npm manifest: 
+  {
+    "dependencies": {
+      "fs": "^0.0.1-security",
+      "puppeteer": "^21.3.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
